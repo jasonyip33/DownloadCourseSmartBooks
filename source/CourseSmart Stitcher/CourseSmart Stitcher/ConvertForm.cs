@@ -22,12 +22,12 @@ namespace CourseSmart_Stitcher
         /// <summary>
         /// Output size of image, default to 400x500
         /// </summary>
-        Size OutputSize = new Size(400, 500);
+        Size OutputSize = new Size(500, 625);
 
         /// <summary>
         /// Padding around ActiveX object, to ensure form is larger than control
         /// </summary>
-        const int FormPadding = 300;
+        const int FormPadding = 400;
 
         public ConvertForm()
         {
